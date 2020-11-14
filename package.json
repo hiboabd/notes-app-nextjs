@@ -1,0 +1,29 @@
+{
+  "name": "notes-app-nextjs",
+  "version": "1.0.0",
+  "description": "A notes app built in next js",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^10.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiboabd/notes-app-nextjs.git"
+  },
+  "author": "Hibo Abdilaahi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hiboabd/notes-app-nextjs/issues"
+  },
+  "homepage": "https://github.com/hiboabd/notes-app-nextjs#readme"
+}
+
+
