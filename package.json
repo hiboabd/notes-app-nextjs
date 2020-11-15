@@ -4,9 +4,11 @@
   "description": "A notes app built in next js",
   "main": "index.js",
   "dependencies": {
+    "@theme-ui/presets": "^0.3.0",
     "next": "^10.0.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "theme-ui": "^0.3.3"
   },
   "devDependencies": {},
   "scripts": {
@@ -25,5 +27,3 @@
   },
   "homepage": "https://github.com/hiboabd/notes-app-nextjs#readme"
 }
-
-
