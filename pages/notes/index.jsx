@@ -12,7 +12,7 @@ export default () => {
 
       <div sx={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap'}}>
         {notes.map(note => (
-          <div sx={{width: '33%', p: 2}}>
+          <div sx={{width: '33%', p: 2}} key={note.id}>
             <Link key={note.id} href="/notes/[id]" as={`/notes/${note.id}`}>
               <a sx={{textDecoration: 'none', cursor: 'pointer'}}>
                 <div sx={{variant: 'containers.card',}}>
